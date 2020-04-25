@@ -1,0 +1,23 @@
+{
+	"name": "leablogs/redis-lock",
+	"type": "library",
+	"license": "MIT",
+	"authors": [{
+		"name": "shilh",
+		"email": "shilh@sina.cn"
+	}],
+	"require": {
+		"php": ">=7.0.0",
+		"redis": ">=4.0.0"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Leablogs\\TokenBucket\\": "src//currentlimit//tokenBucket"
+		}
+	},
+	"keywords": [
+		"redis",
+		"lock"
+	]
+}
